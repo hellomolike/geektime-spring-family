@@ -18,6 +18,9 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * coffee订单实体类
+ */
 @Entity
 @Table(name = "T_ORDER")
 @Data

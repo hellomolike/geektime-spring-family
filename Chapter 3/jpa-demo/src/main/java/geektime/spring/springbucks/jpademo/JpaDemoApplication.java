@@ -35,6 +35,9 @@ public class JpaDemoApplication implements ApplicationRunner {
 		initOrders();
 	}
 
+	/**
+	 * 订单初始化方法
+	 */
 	private void initOrders() {
 		Coffee espresso = Coffee.builder().name("espresso")
 				.price(Money.of(CurrencyUnit.of("CNY"), 20.0))

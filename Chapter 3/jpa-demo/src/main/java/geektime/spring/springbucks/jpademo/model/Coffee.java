@@ -17,6 +17,10 @@ import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * coffee实体类
+ */
+
 @Entity
 @Table(name = "T_MENU")
 @Builder
